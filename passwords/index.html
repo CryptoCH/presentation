@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>La gestion des mots de passe</title>
+
+		<meta name="description" content="La gestion des mots de passe - Cryptoparty">
+		<meta name="author" content="Jacques Supcik">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section>
+        			<h1>La gestion des</h1>
+					<h1>mots de passe</h1>
+        			<br>
+					<div>Jacques Supcik</div>
+					<div style="margin-top: 0.5em">CryptoParty Fribourg - 22 Mars 2014</div>
+    			</section>
+    			<section>
+        		<h2>Puissance actuelle des ordinateurs</h2>
+        		<br>
+    				<ul>
+							<li class="fragment">Les ordinateurs sont de plus en plus rapides</li>
+							<li class="fragment">Il y en a toujours plus (certaines organisations possèdent plus de 1'000'000 d'ordinateurs</li>
+							<li class="fragment">Les cartes graphiques (GPU) ont une très grande puissance de calcul et ne sont pas très chères</li>
+							<li class="fragment">Il existe des circuits électronique spécifiquement conçus pour essayer des mots-de-passe (ASICs)</li>
+						</ul>
+				</section>
+
+				<section>
+				  <h2>Mais il y a quand même des limites</h2>
+				  <br>
+					<ul>
+						<li class="fragment">Considérons une clé de 128 bit</li>
+						<li class="fragment">340282366920938463463374607431768211456</li>
+						<li class="fragment">Pour essayer toutes les combinaisons d'une clé de 128 bit pendant une année, les calculateurs consommeraient 30 Gigawatt</li>
+						<li class="fragment">Soit plus de 1% de la consommation mondiale d'énergie !</li>
+					</ul>
+				</section>
+
+				<section>
+    			<h2>Mais il y a quand même des limites</h2>
+        	<br>
+					Une clé de 128 bits représente déjà une limite impossible à atteindre avec la technologie <b>actuelle</b>.
+				</section>
+
+				<section>
+			    <h2>Le choix d'un bon mot de passe</h2>
+					<h4>La qualité du mot de passe dépend de deux caractéristiques:</h4>
+					<div style="text-align: left; margin-left: 2em;">
+						<ul>
+							<li class="fragment">La longueur du mot de passe</li>
+							<li class="fragment">Les caractères (l'alphabet) utilisé dans le mot de passe</li>
+						</ul>
+					</div>
+					<br/>
+					<b class="fragment">Le plus important est la longueur du mot de passe</b>
+				</section>
+
+				<section>
+			    <h2>Le choix d'un bon mot de passe</h2>
+					<h4>Pour un mot de passe complexe (2^128):</h4>
+					<div style="text-align: left; margin-left: 2em;">
+						<ul>
+							<li class="fragment">Il faut 22 caractères «complexes» (lettres + chiffres + spécial)</li>
+							<li class="fragment">ou 24 lettres (majuscules + minuscules)</li>
+							<li class="fragment">ou 28 lettres (que des minuscules)</li>
+						</ul>
+					</div>
+				</section>
+
+				<section >
+    			<h2>Mauvais mots de passe</h2>
+			    <br>
+					<ul>
+						<li class="fragment">Les nombres</li>
+						<li class="fragment">Les mots du dictionnaire («seulement» 30'000 - 50'000 mots en Français)</li>
+						<li class="fragment">Les mots du dictionnaires écrits en l'envers</li>
+						<li class="fragment">Les mots du dictionnaire avec un mélange de majuscules et de minuscules (DiCTioNnaIRE)</li>
+						<li class="fragment">Les mots du dictionnaire avec des substitutions simples (D!ct!0nna!r3)</li>
+						<li class="fragment">Noms propres</li>
+						<li class="fragment">Lettres consécutives sur le clavier (qwertzuiop)</li>
+					</ul>
+				</section>
+
+				<section data-id="e5edfed9598c39207567e43f89b5b923">
+				  <h2>Les bons mots de passe</h2>
+					<ul>
+						<li class="fragment">Mots de passe longs (si possible plus de 20 caractères, mais au minimum 10 caractères)</li>
+				    <li class="fragment">Mots de passe avec des caractères quelconques.</li>
+				  </ul>
+			
+					<br/>
+					<br/>
+					<div class="fragment">
+				    <h4>Voici quelques «bons» mots de passe:</h4>
+				    <div>X#er/TE4vd@ZvO;S+gS5:wUm</div>
+				    <div>5BT$~Q@e33.0y6-gy,\HHz-i</div>
+				    <div>sJ!Og6B1!lgE&lt;#)HgQb?zv_J</div>
+				    <div>G&lt;L&lt;edZ:eEo&lt;M;+\DX=-{l&amp;]</div>
+				    <div>(G+8cVMdYrx%Ygo3yoT1LS|?&gt;</div>
+				    <div>T3CX6/L2YUYX#1kxV$:go'A"</div>
+				  </div>
+				</section>
+
+				<section>
+        	<h2>D'autres bons mots de passe</h2>
+	        <br>
+					<div>"GeParrt!ss!peAUneKr!ptaux"</div>
+					<div>"LaZoliMuzéDHistoyrNatourele"</div>
+					<div>"Une phrase avec onze mots simples mais ça fait très long"</div>
+		    </section>
+
+		    <section>
+        	<h2>Comment utiliser les mots de passe</h2>
+ 			    <br>
+    			<ul>
+						<li class="fragment">Ne jamais utiliser le même mot de passe pour différents services</li>
+						<li class="fragment">C'est OK de noter les mots de passe sur un carnet, mais il existe de meilleures solutions...</li>
+					</ul>
+				</section>
+
+				<section>
+    			<h2>Les outils</h2>
+			    <br>
+					<div>KeepassX</div>
+					<div>https://www.keepassx.org/</div>
+					<br>
+					<div>Password Safe (Bruce Schneier)</div>
+					<div>http://passwordsafe.sourceforge.net/</div>
+					<br>
+					<div>Password Gorilla</div>
+					<div>https://github.com/zdia/gorilla/wiki</div>
+				</section>
+
+				<section>
+    			<h2>KeepassX</h2>
+			    <br>
+  				<div>Disponibles pour toutes les plateformes</div>
+					<div>Y-compris pour les smartphones</div>
+  				<br>
+  				<div>Compatible avec KeePass 1.x (Classic)</div>
+					<div>mais pas avec KeePass 2!</div>
+					<br>
+					<div>On peut stocker la base de données dans le «cloud», à condition d'utiliser un «key file» en plus du mot de passe.</div>
+				</section>
+
+				<section>
+    			<h2>Les outils en ligne</h2>
+			    <br>
+					<div>LastPass</div>
+					<div>https://lastpass.com/</div>
+					<br>
+					<div>Clipperz</div>
+					<div>https://clipperz.is/</div>
+				</section>
+
+				<section>
+				  <h2>Les alternatives aux mots de passe</h2>
+				  <br>
+					<ul>
+						<li>Les certificats X509</li>
+						<li>Les mots de passe à usage unique (one-time-passwords)</li>
+						<li>L'authentification unique (single sign-on)</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
