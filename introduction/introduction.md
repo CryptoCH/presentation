@@ -27,17 +27,27 @@ Partage des connaissances.
 
 ------------------
 
-## Cryptographie et sécurité
+## Bonne **conduite**
 
-- cryptographie $\neq$ sécurité
-- la sécurité est une **hygiène**
-- tout à un coût
-- (d'apprentissage, de temps...)
+- vie privée
+- **Toujours** demander avant:
+   - photos, videos
+   - publications incluant nom/identité/pseudo/action
+- flouter/masquer les visages
 
 <details>
-On peut avoir le meilleur algorithme de chiffrement, si on laisse la clé trainer il est inutile
-La sécurité total n'existe pas. La sécurité est une voie, rien ne se fait du jours au lendemain, tout est graduel, et on fait des erreurs.
+Nous somme ici pour parler de vie privée, donc autant prendre de bonnes habitudes tout de suite !
 </details>
+
+------------------
+
+##Aujourd'hui on peut parler de...
+
+- EthACK
+- Sécurité des ordinateurs portable
+- Tor
+- Password ?
+- Autre ?
 
 ------------------
 
@@ -46,9 +56,26 @@ La sécurité total n'existe pas. La sécurité est une voie, rien ne se fait du
 - **F**ree and **O**pen **S**ource **S**oftware
 - liberté de l'utilisateur
 - avantage en sécurité
+- GNU/Linux **<3**
+   - **FR**ibourg **O**pen **S**ource **C**ommunity
 
 <details>
 Car auditable, si même en connaissant l'algorithme complet qui protège ont ne peux le casser, alors il est sécurisé.
+</details>
+
+------------------
+
+## Cryptographie et sécurité
+
+- cryptographie **$\neq$** sécurité
+- la sécurité c'est une **hygiène**
+- tout a un coût
+- (d'apprentissage, de temps...)
+- revenez le mois prochain **;)**
+
+<details>
+On peut avoir le meilleur algorithme de chiffrement, si on laisse la clé trainer il est inutile
+La sécurité total n'existe pas. La sécurité est une voie, rien ne se fait du jours au lendemain, tout est graduel, et on fait des erreurs.
 </details>
 
 ------------------
@@ -66,7 +93,7 @@ Car auditable, si même en connaissant l'algorithme complet qui protège ont ne 
 - réseau basé sur la **confiance**
 
 <details>
-Dépourvu de sécurité, mais créer de façon à être suffisamment généralisable pour qu'on le sur-couche de sécurité.
+Dépourvu de sécurité, mais créé de façon à être suffisamment généralisable pour qu'on le sur-couche de sécurité.
 </details>
 
 ------------------
@@ -74,7 +101,7 @@ Dépourvu de sécurité, mais créer de façon à être suffisamment généralis
 <img src="internet_diagram.svg" style="width: 100%">
 
 <details>
-Paquets passe par votre routeur, votre FAI, d'autre réseau, et arrive enfin à destination. Mode patate chaude.
+Paquets passent par votre routeur, votre FAI, d'autre réseaus, et arrive enfin à destination. Mode patate chaude.
 </details>
 ------------------
 
@@ -95,10 +122,10 @@ Paquets passe par votre routeur, votre FAI, d'autre réseau, et arrive enfin à 
 
 ##Législation
 
-- loi sur la **rétention** de donnée
+- loi sur la **rétention** des données
 - **6 mois** en Suisse
 - Europe (6 mois à 2 ans)
-- Allemagne, Belgique, (République Tchèque, Norvège)
+- Allemagne, Belgique
 
 <details>
 Allemagne et Belgique non pas de loi sur la rétention de données. République Tchèque en cour de changement, Norvège jusqu'en 2015
@@ -134,6 +161,7 @@ Récapitulons: Internet est un réseau ouvert, il à été créé sans la sécur
 - cryptomonnaie, bitmessage, twister...
 
 <details>
+"Utiliser la cryptographie est équivalent à avoir des rapports séxuel protégé"
 Protéger ses communications ce n'est pas seulement se protéger sois même, c'est protéger les autres.
 Vous ne pouvez pas contrôler ce que vas dire votre correspondant. C'est peut être anodin aujourd'hui, mais tout cela est collecté hors contexte.
 </details>

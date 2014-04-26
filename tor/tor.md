@@ -1,6 +1,6 @@
 <img src="logo.png">
 
-##**Anonymisation** du web avec **Tor**
+##{**Pseudo**|**Ano**}**nymisation** du web avec **Tor**
 
 <p><a href="https://twitter.com/CryptoCH">@CryptoCH</a></p>
 
@@ -76,14 +76,15 @@ l'info.
 ------------------
 
 <img src="tor_logo.svg" alt="tor_logo" style="max-height: 90px; margin-top:20px"/>
-<img src="tor_network.svg" style="max-height: 100%; margin-top: -70px" />
+<img src="tor_network.svg" style="max-width: 100%; margin-top: -70px" />
 
 ------------------
 
 ## Hidden Services
 
 - service caché au sein du réseau
-- http://3g2upl4pq6kufc4m.onion/
+- l'**émetteur** ne sait pas ou est le **destinataire**
+- http://**3g2upl4pq6kufc4m.onion**
 
 <details>
 Les services cachés permettent de camoufler un service au sein du résau Tor.
@@ -94,15 +95,15 @@ est hébergé le service. Exemple d'adresse, le site DuckDuckGo.
 ------------------
 
 <img src="tor_logo.svg" alt="tor_logo" style="max-height: 90px; margin-top:20px"/>
-<img src="tor_network_hs.svg" style="max-height: 100%; margin-top: -70px" />
+<img src="tor_network_hs.svg" style="max-width: 100%; margin-top: -70px" />
 
 ------------------
 
 ## Le réseau
 
-* entièrement volontaire
-* ~5000 noeuds
-* ~1000 noeuds de sortis
+* entièrement **volontaire**
+* **~5000** noeuds
+* **~1000** noeuds de **sortis**
 
 ------------------
 
