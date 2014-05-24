@@ -32,7 +32,7 @@
 
 - **IP** source et destination visible
 - contenu chiffré
-- entre **sois** et le **serveur** contacté
+- entre **soi** et le **serveur** contacté
 - Plugin Firefox : HTTPS Everywhere
 
 <details>
@@ -60,6 +60,14 @@ pays "libre" pour faire pression.
 
 ------------------
 
+## Usage
+
+- Passer au travers des firewalls
+- Protection contre l'espionnage
+- Contourner la censure
+
+------------------
+
 ## Fonctionnement
 
 - surcouche aux autres protocoles
@@ -83,7 +91,7 @@ l'info.
 ## Hidden Services
 
 - service caché au sein du réseau
-- l'**émetteur** ne sait pas ou est le **destinataire**
+- l'**émetteur** ne sait pas où est le **destinataire**
 - http://**3g2upl4pq6kufc4m.onion**
 
 <details>
@@ -103,7 +111,7 @@ est hébergé le service. Exemple d'adresse, le site DuckDuckGo.
 
 * entièrement **volontaire**
 * **~5000** noeuds
-* **~1000** noeuds de **sortis**
+* **~1000** noeuds de **sorties**
 
 ------------------
 
