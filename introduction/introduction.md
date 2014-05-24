@@ -18,10 +18,10 @@
 - gratuite et libre d'accès
 - publique
 - non commercial et non alignée politiquement
-- contre toutes formes de discrimination et d'harcèlement sexuel
+- contre toutes formes de discrimination et d'harcèlement
 
 <details>
-Créé vers décembre 2012 suite aux lois sur la rétention de données en Australie.
+Créé vers aout 2012 suite aux lois sur la rétention de données en Australie.
 Partage des connaissances.
 </details>
 
@@ -43,10 +43,10 @@ Nous somme ici pour parler de vie privée, donc autant prendre de bonnes habitud
 
 ##Aujourd'hui on peut parler de...
 
-- EthACK
-- Sécurité des ordinateurs portable
-- Tor
-- Password ?
+- Sécurité des mobiles
+- Plugins Firefox pour la vie privée
+- Actualités
+- Tor ?
 - Autre ?
 
 ------------------
@@ -180,8 +180,17 @@ Vous ne pouvez pas contrôler ce que vas dire votre correspondant. C'est peut ê
 
 # &lt;**3**
 
-- bug...
-
 <details>
 C'est tout ce que j'ai.
 </details>
+
+------------------
+
+##Aujourd'hui on peut parler de...
+
+- Sécurité des mobiles
+- Plugins Firefox pour la vie privée
+- Actualités
+- Tor ?
+- Autre ?
+
