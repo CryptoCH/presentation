@@ -70,7 +70,7 @@ pays "libre" pour faire pression.
 
 ## Fonctionnement
 
-- surcouche aux autres protocoles
+- enrobe les autres protocoles
 - Tor ne **protège pas** le contenu
 - masque l'adresse source et destination
 - fait **rebondir** les paquets au sein du réseau
