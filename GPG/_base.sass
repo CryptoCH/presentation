@@ -1,0 +1,105 @@
+html
+  background-color: $bg_color
+
+body
+  font-family: 'Oswald', arial, serif
+  background-color: white
+  color: white
+  font-size: 2em
+  background: $bg_color
+
+/* Transition effect */
+section
+  -moz-transition: left 400ms linear 0s
+  -webkit-transition: left 400ms linear 0s
+  -ms-transition: left 400ms linear 0s
+  transition: left 400ms linear 0s
+  background: $slide_bg_color
+
+section
+  left: -150%
+section[aria-selected]
+  left: 0
+section[aria-selected] ~ section
+  left: +150%
+
+a, a:hover
+  color: $em_color
+  text-decoration: none
+
+footer
+  position: absolute
+  bottom: 10px
+  right: 0
+  left: 0
+
+  p
+    font-size: 1em
+
+strong
+  color: $em_color
+
+h1
+  margin: 50px 100px 0 100px
+  font-size: 50px
+  text-shadow: 0px -1px 0px #000
+  text-align: center
+
+h2
+  color: $h2_color
+  margin: 70px 0 0 0
+  font-size: 40px
+  text-align: center
+
+ul
+  margin-top: 60px
+  margin-left: 40px
+  margin-right: 30px
+  padding-right: 30px
+  font-size: 35px
+  text-align: right
+  border-right: 4px solid white
+  min-width: 310px
+  display: inline-block
+
+li
+  margin-bottom: 10px
+  list-style-type: none
+
+blockquote
+  margin: 25px auto 0 auto
+  width: 600px
+
+q
+  margin: 50px auto 0 auto
+  width: 500px
+  display: block
+  margin-top: 140px
+
+  :after
+    content: ""
+
+  :before
+    content: ""
+
+video
+  position: absolute
+  top: 210px
+  width: 260px
+  left: 445px
+  box-shadow: 0 0 10px black
+
+#arrow
+  position: absolute
+  top: 165px
+  left: 460px
+  font-size: 100px
+  color: white
+
+.level1
+  vertical-align: middle
+  text-align: center
+
+img
+  max-width: 100%
+  max-height: 100%
