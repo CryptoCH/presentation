@@ -1,0 +1,13 @@
+// Incremental management
+
+// By default, visible
+.incremental > *
+  opacity: 1
+
+// The current show item
+.incremental > *[aria-selected]
+  opacity: 1
+
+// The next items
+.incremental > *[aria-selected] ~ *
+  opacity: 0
