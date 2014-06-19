@@ -128,7 +128,10 @@ Paquets passent par votre routeur, votre FAI, d'autre réseaus, et arrive enfin 
 - Allemagne, Belgique
 
 <details>
-Allemagne et Belgique non pas de loi sur la rétention de données. République Tchèque en cour de changement, Norvège jusqu'en 2015
+Allemagne (avait mis en place, mais retiré suite à une très grosse plainte
+juridique, considéré anticonstitutionnel) et Belgique non pas de loi sur la
+rétention de données. République Tchèque en cour de changement, Norvège
+jusqu'en 2015.
 </details>
 
 ------------------
@@ -175,6 +178,7 @@ Vous ne pouvez pas contrôler ce que vas dire votre correspondant. C'est peut ê
 - "Chiffrement de grade militaire"
 - "Les données **s'auto-détruises**"
 - Cloud
+- "Basé en **Suisse**"
 
 ------------------
 
