@@ -1,7 +1,6 @@
 #GPG en 30 minutes
-Challenge accepted
-
-<a href="https://twitter.com/Mayeu">@Mayeu</a>
+"Challenge accepted"\
+[\@Mayeu](https://twitter.com/Mayeu)
 
 <footer>
    <img src="cc0.png" alt="cc0" />
@@ -28,7 +27,7 @@ Ceci est un e-mail. Simple fichier texte qui vas passer de machine en machine.
 Va passer par de multiple serveur avant d'arriver au destinataire.
 
 N'importe qui peut écouter & modifier le mail, n'importe qui pourrait envoyer
-un message depuis une autre source
+un message depuis une autre source.
 </details>
 
 ------------------
@@ -77,6 +76,7 @@ n'importe qui.
 ------------------
 
 #Chiffrement
+
 <img class="asym" src="asym-key-2.svg"/>
 
 <details>
@@ -88,6 +88,7 @@ sûr qu'elle est la seule à pouvoir lire le message.
 ------------------
 
 #Signature
+
 <img class="asym" src="asym-key-3.svg"/>
 
 <details>
@@ -103,8 +104,8 @@ l'émetteur.
 Alice utilise **sa clé privée** pour **déchiffrer** les messages reçus et
 **signer** les messages envoyés.
 
-Alice utilise **la clé publique de Bob** pour **chiffrer** les messages envoyés
-et **vérifier la signature** des messages reçus.
+Alice utilise *la clé publique de Bob* pour *chiffrer* les messages qu'elle lui
+envoie et *vérifier la signature* des messages reçus.
 
 ------------------
 
@@ -114,7 +115,7 @@ et **vérifier la signature** des messages reçus.
 
 * Phill Zimmerman en 1991
 * Gestion d'identité
-* Chiffrement d'email, de fichier
+* Chiffrement d'emails, de fichiers
 * Toile de confiance
 
 <details>
@@ -162,16 +163,97 @@ et à qui vous l'envoyez ;)
 </details>
 
 ------------------
-# The rest is TODO.
-[[ installation thunderbird + gpg + enigmail, mettre les liens ]]
 
-* Générer une identité
-* certificat de revocation
-* Passer la clé publique
-* envoyer un e-mail
+#Hands on !
 
-GG
+*Thunderbird* : [https://www.mozilla.org/thunderbird](https://www.mozilla.org/thunderbird)\
+*GPG pour Windows* : [http://www.gpg4win.org](http://www.gpg4win.org) \
+*GPG pour Mac* : [https://gpgtools.org](https://gpgtools.org)
 
-Source /lien
-* google transparency report http://www.google.com/transparencyreport/saferemail
-* smtp image: https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol#mediaviewer/File:SMTP-transfer-model.svg
+------------------
+
+#Installer Enigmail
+
+<img id="enigmail-01" src="enigmail-01.png"/>
+
+------------------
+
+#Installer Enigmail
+
+<img id="enigmail-02" src="enigmail-02.png"/>
+
+------------------
+
+#Créer une identité
+
+<img id="enigmail-03" src="enigmail-03.png"/>
+
+------------------
+
+#Créer une identité
+
+<img id="enigmail-04" src="enigmail-04.png"/>
+
+------------------
+
+#Créer une identité
+
+<img id="enigmail-05" src="enigmail-05.png"/>
+
+------------------
+
+#Créer une identité
+
+<img id="enigmail-06" src="enigmail-06.png"/>
+
+------------------
+
+#Configurer Enigmail
+
+<img id="enigmail-07" src="enigmail-07.png"/>
+
+------------------
+
+#Configurer Enigmail
+
+<img id="enigmail-08" src="enigmail-08.png"/>
+
+------------------
+
+#Partager sa clé publique
+
+* Dans un fichier
+* Par email
+* Dans un annuaire public
+
+<details>
+Clic droit sur la clé dans gestion des clefs et hop
+</details>
+
+------------------
+
+#Étendre la toile de confiance
+
+*But :* Vérifier qu'une personne a bien le contrôle d'une identité
+
+* Vérification **d'identité**
+* Vérification de *l'empreinte de la clé*
+* **Signature de la clé**
+* Envoie de la clé signée à son propriétaire
+
+<details>
+Comment avoir confiance dans les clés que je récupère sur Internet ?
+</details>
+
+------------------
+
+#Ne pas...
+
+* ...signer aveuglement une clé
+* ...se sentir obligé de signer des clés
+* ...envoyer soit même la signature sur un serveur de clé
+* ...partager sa clé privée
+
+------------------
+
+# *<***3**

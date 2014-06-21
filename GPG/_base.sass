@@ -3,8 +3,7 @@ html
 
 body
   font-family: 'Oswald', arial, serif
-  background-color: white
-  color: white
+  color: $font_color
   font-size: 2em
   background: $bg_color
 
@@ -24,7 +23,7 @@ section[aria-selected] ~ section
   left: +150%
 
 a, a:hover
-  color: $em_color
+  color: $em_color1
   text-decoration: none
 
 footer
@@ -37,10 +36,15 @@ footer
     font-size: 1em
 
 strong
-  color: $em_color
+  color: $em_color1
+
+em
+  color: $em_color2
+  font-style: normal
+  font-weight: bold
 
 h1
-  margin: 50px 100px 0 100px
+  margin: 50px 50px 40px 50px
   font-size: 50px
   text-shadow: 0px -1px 0px #000
   text-align: center
