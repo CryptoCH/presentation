@@ -8,6 +8,10 @@
 
 ------------------
 
+# *http://***bit.ly/1lHwHiB** {.full-page}
+
+------------------
+
 ```example-mail
 To: bob@example.com
 From: alice@example.com
@@ -256,4 +260,4 @@ Comment avoir confiance dans les clés que je récupère sur Internet ?
 
 ------------------
 
-# *<***3**
+# *<***3** {.full-page}
