@@ -2,11 +2,18 @@
 
 ##**Party** like it's December 31st, **1983**
 
-<p><a href="https://twitter.com/CryptoCH">@CryptoCH</a></p>
+[\@CryptoCH](https://twitter.com/CryptoCH)\
+
 
 <footer>
    <img src="cc0.png" alt="cc0" />
 </footer>
+
+------------------
+
+# http://**bit.ly/1sv2Yxd**
+
+------------------
 
 # Introduction
 
@@ -32,7 +39,7 @@ Partage des connaissances.
 - vie privée
 - **Toujours** demander avant:
    - photos, videos
-   - publications incluant nom/identité/pseudo/action
+   - publications incluant nom, identité, pseudo, action
 - flouter/masquer les visages
 
 <details>
@@ -48,6 +55,14 @@ Nous somme ici pour parler de vie privée, donc autant prendre de bonnes habitud
 * Bitmessage
 * GPG
 * Mot de passe
+
+------------------
+
+##Et demain ?
+
+* Sur Twitter : [\@Cryptoch](https://twitter.com/Cryptoch)
+* Wiki : [https://cryptofribourg.ch](https://cryptofribourg.ch)
+* Forum : [https://list.cryptofribourg.ch](https://list.cryptofribourg.ch)
 
 ------------------
 
@@ -125,13 +140,12 @@ Paquets passent par votre routeur, votre FAI, d'autre réseaus, et arrive enfin 
 - loi sur la **rétention** des données
 - **6 mois** en Suisse
 - Europe (6 mois à 2 ans)
-- Allemagne, Belgique
+- Allemagne
 
 <details>
 Allemagne (avait mis en place, mais retiré suite à une très grosse plainte
-juridique, considéré anticonstitutionnel) et Belgique non pas de loi sur la
-rétention de données. République Tchèque en cour de changement, Norvège
-jusqu'en 2015.
+juridique, considéré anticonstitutionnel) non pas de loi sur la rétention de
+données. Norvège jusqu'en 2015.
 </details>
 
 ------------------
@@ -139,7 +153,9 @@ jusqu'en 2015.
 #Surveillance d'**Internet**
 
 <details>
-Récapitulons: Internet est un réseau ouvert, il à été créé sans la sécurité à l'esprit, le réseau est basé sur la confiance dans ses noeuds, les acteurs majeurs sont des acteurs commerciaux.
+Récapitulons: Internet est un réseau ouvert, il à été créé sans la sécurité à
+l'esprit, le réseau est basé sur la confiance dans ses noeuds, les acteurs
+majeurs sont des acteurs commerciaux.
 <details>
 
 ------------------
