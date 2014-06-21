@@ -41,13 +41,13 @@ Nous somme ici pour parler de vie privée, donc autant prendre de bonnes habitud
 
 ------------------
 
-##Aujourd'hui on peut parler de...
+##Aujourd'hui...
 
-- Sécurité des mobiles
-- Plugins Firefox pour la vie privée
-- Actualités
-- Tor ?
-- Autre ?
+* Introduction
+* KOBIK
+* Bitmessage
+* GPG
+* Mot de passe
 
 ------------------
 
@@ -177,7 +177,7 @@ Vous ne pouvez pas contrôler ce que vas dire votre correspondant. C'est peut ê
 - "Nos logiciels **brevetés**"
 - "Chiffrement de grade militaire"
 - "Les données **s'auto-détruises**"
-- Cloud
+- "Cloud"
 - "Basé en **Suisse**"
 
 ------------------
@@ -190,11 +190,10 @@ C'est tout ce que j'ai.
 
 ------------------
 
-##Aujourd'hui on peut parler de...
+##Aujourd'hui...
 
-- Sécurité des mobiles
-- Plugins Firefox pour la vie privée
-- Actualités
-- Tor ?
-- Autre ?
-
+* Introduction
+* KOBIK
+* Bitmessage
+* GPG
+* Mot de passe
