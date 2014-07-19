@@ -11,21 +11,17 @@
 
 ------------------
 
-# http://**bit.ly/1sv2Yxd**
-
-------------------
-
 # Introduction
 
 ------------------
 
 ## **CryptoParty** ?
 
-- @Asherwolf
+- @Asher\_Wolf
 - gratuite et libre d'accès
-- publique
 - non commercial et non alignée politiquement
 - contre toutes formes de discrimination et d'harcèlement
+- Auto-géré
 
 <details>
 Créé vers aout 2012 suite aux lois sur la rétention de données en Australie.
@@ -51,10 +47,9 @@ Nous somme ici pour parler de vie privée, donc autant prendre de bonnes habitud
 ##Aujourd'hui...
 
 * Introduction
-* KOBIK
-* Bitmessage
-* GPG
-* Mot de passe
+* Navigation web et vie privée
+* Chiffrer ses emails avec GPG
+* Comprendre et utiliser Tor
 
 ------------------
 
@@ -71,8 +66,7 @@ Nous somme ici pour parler de vie privée, donc autant prendre de bonnes habitud
 - **F**ree and **O**pen **S**ource **S**oftware
 - liberté de l'utilisateur
 - avantage en sécurité
-- GNU/Linux **<3**
-   - **FR**ibourg **O**pen **S**ource **C**ommunity
+- **FR**ibourg **O**pen **S**ource **C**ommunity
 
 <details>
 Car auditable, si même en connaissant l'algorithme complet qui protège ont ne peux le casser, alors il est sécurisé.
@@ -103,7 +97,7 @@ La sécurité total n'existe pas. La sécurité est une voie, rien ne se fait du
 
 - système d'interconnexion de réseau
 - **I**nternet **P**rotocole
-- entre 1970 et 1980
+- créé entre 1970 et 1980
 - **dépourvu de sécurité**
 - réseau basé sur la **confiance**
 
@@ -116,8 +110,9 @@ Dépourvu de sécurité, mais créé de façon à être suffisamment généralis
 <img src="internet_diagram.svg" style="width: 100%">
 
 <details>
-Paquets passent par votre routeur, votre FAI, d'autre réseaus, et arrive enfin à destination. Mode patate chaude.
+Paquets passent par votre routeur, votre FAI, d'autres réseaux, et arrive enfin à destination. Mode patate chaude.
 </details>
+
 ------------------
 
 #**Internet** ça laisse des **traces**
@@ -140,12 +135,12 @@ Paquets passent par votre routeur, votre FAI, d'autre réseaus, et arrive enfin 
 - loi sur la **rétention** des données
 - **6 mois** en Suisse
 - Europe (6 mois à 2 ans)
-- Allemagne
+- Quelques cas particuliers
 
 <details>
 Allemagne (avait mis en place, mais retiré suite à une très grosse plainte
 juridique, considéré anticonstitutionnel) non pas de loi sur la rétention de
-données. Norvège jusqu'en 2015.
+données.
 </details>
 
 ------------------
@@ -180,7 +175,7 @@ majeurs sont des acteurs commerciaux.
 - cryptomonnaie, bitmessage, twister...
 
 <details>
-"Utiliser la cryptographie est équivalent à avoir des rapports séxuel protégé"
+"Utiliser la cryptographie est équivalent à avoir des rapports sexuels protégés"
 Protéger ses communications ce n'est pas seulement se protéger sois même, c'est protéger les autres.
 Vous ne pouvez pas contrôler ce que vas dire votre correspondant. C'est peut être anodin aujourd'hui, mais tout cela est collecté hors contexte.
 </details>
@@ -209,7 +204,7 @@ C'est tout ce que j'ai.
 ##Aujourd'hui...
 
 * Introduction
-* KOBIK
-* Bitmessage
-* GPG
-* Mot de passe
+* Navigation web et vie privée
+* Chiffrer ses emails avec GPG
+* Comprendre et utiliser Tor
+
