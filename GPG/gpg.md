@@ -8,10 +8,6 @@
 
 ------------------
 
-# *http://***bit.ly/1lHwHiB** {.full-page}
-
-------------------
-
 ```example-mail
 To: bob@example.com
 From: alice@example.com
